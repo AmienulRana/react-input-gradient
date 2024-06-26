@@ -3,5 +3,5 @@ import ColorPicker from "react-best-gradient-color-picker";
 
 export default function InputColorPickerGradient() {
   const [color, setColor] = useState("");
-  return <ColorPicker value={color} setColor={(value) => setColor(value)} />;
+  return <ColorPicker value={color} onChange={(value) => setColor(value)} />;
 }
